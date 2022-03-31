@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+:root {
+  --color-white: #fff;
+  --color-darkblue: #0d0c1e;
+  --color-alpha: #d31a68;
+}
+
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+
+#container{
+  position: relative;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins';
+  color: var(--color-white);
+  background-color:var(--color-darkblue); 
+      
+}
+
+header{
+  width: 100%;
+  height: 5rem;
+  background-color: #0d0c1e;
+}
+#header-img{
+  width: 9rem;
+}
+.logo{
+  width: 5rem;
+  height: 5rem;
+}
+nav{
+  position: fixed;
+  width: 100%;
+  background-color: #0d0c1e;
+  margin: 0;
+}
+
+ul{
+  float: right;
+  margin-right: 2%;
+}
+li{
+  display: inline-block;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+  padding:0 2rem;
+} 
+
+a:hover{
+  text-decoration: underline 5px #d31a68;
+}
+
+h1{
+  text-align: center;
+  background: linear-gradient(10deg,#d31a68,var(--color-darkblue),#d31a68);
+  background-color:  #d31a68;
+}
+
+form{
+  margin: 0.5rem auto 1rem auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.form-control{
+  margin: 0 auto 1rem auto;
+}
+
+#email{
+  border: 1px var(--color-darkblue) solid;
+  height: 40px;
+  width: 35rem;
+}
+
+input[placeholder]{
+  text-align: center;
+  font-size: large;
+}
+
+#submit{
+  border-radius: 20px;
+  border: 1px var(--color-darkblue) solid;
+  width: 10rem;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 800;
+  text-transform: uppercase;
+  background:#d31a68;
+  cursor: pointer;
+  color: #fff;
+} 
+#submit:hover{
+  background:#02fa55;
+  color: #0d0c1e;
+}
+#util{
+  margin: 5% 25% 0 25%;
+}
+.grid {
+ display: flex;
+}
+#service .desc {
+  padding-left: 5rem;
+}
+#service .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+#pricing{
+  display: flex;
+}
+
+.product{
+  border: 1px var(--color-alpha) solid;
+  margin: 3rem 1rem 3rem 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.level{
+  background-color: rgba(211, 26, 104, 0.2);
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: large;
+}
+
+.btn{
+  background: #fff;
+  border: none;
+  height: 2rem;
+  margin: 1rem;
+  text-transform:uppercase ;
+}
+
+footer {
+  margin: 2rem 25%  0 25%;
+  background-color: var(--color-alpha);
+  padding: 20px;
+  width: 50%;
+  display: flex;
+}
+
+span{
+text-align: center;
+}
+
+
+
+
+
+
+
